@@ -17,7 +17,7 @@ cask "escrcpy" do
   end
 
   auto_updates false
-  depends_on macos: :catalina
+  depends_on :macos
 
   app "Escrcpy.app"
 
